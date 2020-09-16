@@ -1,8 +1,15 @@
 grid{
+    clear: both;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
     grid-row-gap:1em;
     margin-bottom: 2em;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+grid p{
+    margin: 0;
+    max-width: 16.6vw;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 col1{
     grid-column: 1/2;
