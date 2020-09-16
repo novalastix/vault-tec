@@ -3,6 +3,10 @@
     --bg-color: #060a08;
 }
 
+::selection {
+    background: var(--main-color);
+  }
+
 @font-face{
     font-family: 'VGA';
     src:url('../fonts/Ac437_IBM_BIOS.ttf') format('truetype');
