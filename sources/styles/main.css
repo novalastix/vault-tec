@@ -78,6 +78,11 @@ footer a:hover{
     color: var(--bg-color);
 }
 
+redacted{
+    display: inline-block;
+    background-color: var(--main-color);
+}
+
 
 .crt::before {
     content: " ";
